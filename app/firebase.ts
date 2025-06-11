@@ -4,7 +4,7 @@ import { getFirestore } from 'firebase/firestore';
 
 // Configuração do Firebase do seu projeto
 const firebaseConfig = {
-  apiKey: 'AIzaSyAeiHrXAXMdp6Uox1ixp9meaHhZPes008I',
+ const apiKey = process.env.API_KEY;
   authDomain: 'adominus-wealth.firebaseapp.com',
   projectId: 'adominus-wealth',
   storageBucket: 'adominus-wealth.appspot.com',
